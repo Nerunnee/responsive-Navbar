@@ -1,5 +1,6 @@
 const nav = document.getElementById("nav-bar");
+console.log(nav);
 
 const navbar = () => {
-  nav.classList.toggle("active");
+  nav.classList.add("active");
 };

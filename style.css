@@ -5,17 +5,25 @@
 }
 
 .container {
+  height: auto;
   display: flex;
   justify-content: space-between;
 }
 
-@media screen and (max-width: 600px) {
-  .container p {
-    display: none;
-  }
+.navbar li {
+  display: none;
+}
 
-  .container button img {
-    float: right;
+.navbar.active li {
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  .navbar {
+    display: flex;
+    gap: 50px;
+  }
+  .navbar li.active {
     display: block;
   }
 }
