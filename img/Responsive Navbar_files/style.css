@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-widht: 600px) {
+  .container p {
+    display: none;
+  }
+  button {
+    float: right;
+    display: block;
+  }
+}

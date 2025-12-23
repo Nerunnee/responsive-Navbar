@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .container p {
+    display: none;
+  }
+
+  .container button img {
+    float: right;
+    display: block;
+  }
+}
+
+button img {
+  width: 20px;
+  height: 20px;
+}
